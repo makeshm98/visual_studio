@@ -16,6 +16,6 @@ This guide provides step-by-step instructions for installing Visual Studio Code 
    ```bash
    sudo apt update
 ## Install Dependencies: Install necessary dependencies:
-
-sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+   ```bash
+   sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
 
