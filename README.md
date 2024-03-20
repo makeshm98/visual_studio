@@ -24,11 +24,11 @@ This guide provides step-by-step instructions for installing Visual Studio Code 
    ```bash
    curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/microsoft.gpg > /dev/null
 
-4. ## Add Visual Studio Code Repository: Add the Visual Studio Code repository
+4. ## Add Visual Studio Code Repository: 
    ```bash
    sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 
-5. ## Update Package Index Again: Update the package index again:
+5. ## Update Package Index Again: 
    ```bash
    sudo apt update
 
@@ -36,7 +36,7 @@ This guide provides step-by-step instructions for installing Visual Studio Code 
    ```bash
    sudo apt install code
 
-7. ## Launch Visual Studio Code: Launch Visual Studio Code:
+7. ## Launch Visual Studio Code:
    ```bash
    code
 
