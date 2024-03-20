@@ -15,6 +15,7 @@ This guide provides step-by-step instructions for installing Visual Studio Code 
 1. **Update Package Index**: Open a terminal window and update the package index:
    ```bash
    sudo apt update
+   
 ## Install Dependencies: Install necessary dependencies:
    ```bash
    sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
