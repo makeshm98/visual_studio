@@ -16,11 +16,11 @@ This guide provides step-by-step instructions for installing Visual Studio Code 
    ```bash
    sudo apt update
    
-## Install Dependencies: Install necessary dependencies:
+2. ## Install Dependencies: Install necessary dependencies:
    ```bash
    sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
 
-## Import Microsoft GPG Key: Import the Microsoft GPG key:
+3. ## Import Microsoft GPG Key: Import the Microsoft GPG key:
    ```bash
    curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/microsoft.gpg > /dev/null
 
